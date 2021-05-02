@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T06:36:52.637Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.243" etag="U0dWkYABQenGwQ6S-OU2" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T07:04:46.651Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.243" etag="_ZNp7ZIhZvX8mRk8kl3D" version="14.6.9" type="github">
   <diagram id="VZj9uMkl1v7LY8wVJ-vZ" name="Page-1">
     <mxGraphModel dx="988" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,28 +14,28 @@
           <mxGeometry x="240" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-4" value="Cart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="85" width="150" height="60" as="geometry" />
+          <mxGeometry x="760" y="80" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-5" value="Cart()&lt;br&gt;addProduct(Product)&lt;br&gt;removeProduct(Product)&lt;br&gt;pay(Payment)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="145" width="150" height="60" as="geometry" />
+          <mxGeometry x="760" y="140" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-6" value="Product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="240" width="150" height="60" as="geometry" />
+          <mxGeometry x="760" y="250" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-7" value="price:int&lt;br&gt;articul:String" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="300" width="150" height="60" as="geometry" />
+          <mxGeometry x="760" y="310" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-8" value="Product(String, int)&lt;br&gt;getPrice():int&lt;br&gt;getArticul():int" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="360" width="150" height="60" as="geometry" />
+          <mxGeometry x="760" y="370" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-10" value="Card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="450" width="150" height="60" as="geometry" />
+          <mxGeometry x="760" y="460" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-11" value="number:String&lt;br&gt;validMonth:int&lt;br&gt;validYear:int&lt;br&gt;cvv:int&lt;br&gt;firstName: String&lt;br&gt;secondName: String" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="510" width="150" height="100" as="geometry" />
+          <mxGeometry x="760" y="520" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-12" value="Card()&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="610" width="150" height="120" as="geometry" />
+          <mxGeometry x="760" y="620" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-13" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="450" width="160" height="60" as="geometry" />
@@ -45,6 +45,24 @@
         </mxCell>
         <mxCell id="mH4HDsE1jyDVSG6ZKpJB-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="570" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4HDsE1jyDVSG6ZKpJB-18" value="Transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4HDsE1jyDVSG6ZKpJB-19" value="amount:int&lt;br&gt;currency:String&lt;br&gt;description:String&lt;br&gt;metedata:String" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4HDsE1jyDVSG6ZKpJB-20" value="Enum&lt;br&gt;Currency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4HDsE1jyDVSG6ZKpJB-21" value="RUB,&lt;br&gt;USD,&lt;br&gt;EUR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4HDsE1jyDVSG6ZKpJB-22" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;TransactionData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mH4HDsE1jyDVSG6ZKpJB-23" value="recordTransaction(Transaction transaction)&lt;br&gt;updateTansaction()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
